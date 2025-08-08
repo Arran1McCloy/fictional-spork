@@ -1,1 +1,0 @@
-export default function NewReport(){ return <div>New Defect Report</div> }

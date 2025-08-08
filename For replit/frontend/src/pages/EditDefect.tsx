@@ -1,1 +1,0 @@
-export default function EditDefect(){ return <div>Edit Defect</div> }

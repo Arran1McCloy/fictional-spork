@@ -1,1 +1,0 @@
-export default function DefectLog(){ return <div>Defect Log</div> }
