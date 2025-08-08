@@ -1,0 +1,1 @@
+SELECT * FROM "defectData" WHERE job_id = $1;

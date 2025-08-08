@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "status",
+    "urgency",
+    "relevant_dept"
+  ],
+  "properties": {
+    "status": {
+      "type": "string",
+      "minLength": 1
+    },
+    "urgency": {
+      "type": "string",
+      "minLength": 1
+    },
+    "relevant_dept": {
+      "type": "string",
+      "minLength": 1
+    },
+    "notes": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "assigned_hours": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "current_hours": {
+      "type": [
+        "integer",
+        "null"
+      ],
+      "minimum": 0
+    },
+    "expected_completion": {
+      "type": [
+        "string",
+        "null"
+      ],
+      "format": "date"
+    }
+  },
+  "additionalProperties": false
+}

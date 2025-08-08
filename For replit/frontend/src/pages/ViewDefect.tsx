@@ -1,0 +1,1 @@
+export default function ViewDefect(){ return <div>View Defect</div> }
